@@ -7,20 +7,20 @@ export const projectsData = [
     {
         id: 1,
         image: Project1,
-        title: "Project 1",
-        category: "A",
+        title: "DGV College - Pentest",
+        category: "Pentest",
     },
     {
         id: 2,
         image: Project2,
-        title: "Project 2",
-        category: "B",
+        title: "MCC College - Pentest",
+        category: "Pentest",
     },
     {
         id: 3,
         image: Project3,
-        title: "Project 3",
-        category: "C",
+        title: "Port Scanner",
+        category: "Android",
     },
 ];
 
@@ -29,12 +29,12 @@ export const projectsNav = [
         name: "All",
     },
     {
-        name: "A",
+        name: "Pentest",
     },
     {
-        name: "B",
+        name: "Android",
     },
-    {
-        name: "C",
-    },
+    // {
+    //     name: "C",
+    // },
 ];

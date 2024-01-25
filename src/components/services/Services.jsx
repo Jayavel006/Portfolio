@@ -18,7 +18,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <HiOutlineClipboardList className="services__icon" />
-                    <h3 className="services__title">Web + App<br />Developer</h3>
+                    <h3 className="services__title">CyberSecurity</h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(1)}>
                     View More
@@ -27,27 +27,27 @@ const Services = () => {
                 <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
-                        <h3 className="services__modal-title">Developer</h3>
+                        <h3 className="services__modal-title">CyberSecurity</h3>
                         <p className="services__modal-description">
-                            Over 3 years of experience in web development providing quality work.
+                            Over 3 years of Self-Learning Experience in CyberSecurity providing quality work.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Web page and app development
+                                    Business Security
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Integrate creative colloboration
+                                    Application and Web Security
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Provide product mockups
+                                    Digital Asset Security
                                 </p>
                             </li>
                         </ul>
