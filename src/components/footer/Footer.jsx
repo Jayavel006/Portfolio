@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div className="footer__container container">
-            <h1 className="footer__title">Cyphr</h1>
+            <h1 className="footer__title">Jayavel</h1>
             <ul className="footer__list">
                 <li>
                     <a href="#about" className="footer__link">About</a>
                 </li>
                 <li>
-                    <a href="#portfolio" className="footer__link">Projects</a>
+                    <a href="#portfolio" className="footer__link">Portfolio</a>
                 </li>
                 <li>
                     <a href="#testimonials" className="footer__link">Testimonials</a>
