@@ -16,8 +16,8 @@ const About = () => {
                 <p className="about__description">
                     I help business to improve their security posture by providing CyberSecurity Services.
                 </p>
-                <a download="" href={CV} className="button button--flex">
-                    Download CV
+                <a download="" href="https://docs.google.com/document/d/15CJxq6ZLwsxRxj9d6xNQHJzsaQ1NTAMhOHjCLxOqVKg/edit?usp=sharing" className="button button--flex">
+                    View my CV
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
