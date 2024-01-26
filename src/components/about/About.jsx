@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/JVProfile.png";
-import CV from "../../assets/Example-Cv.pdf";
+import CV from "../../assets/JV_CV.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -16,8 +16,8 @@ const About = () => {
                 <p className="about__description">
                     I help business to improve their security posture by providing CyberSecurity Services.
                 </p>
-                <a download="" href="https://docs.google.com/document/d/15CJxq6ZLwsxRxj9d6xNQHJzsaQ1NTAMhOHjCLxOqVKg/edit?usp=sharing" className="button button--flex">
-                    View my CV
+                <a download="" href={CV} className="button button--flex">
+                    Download CV
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
